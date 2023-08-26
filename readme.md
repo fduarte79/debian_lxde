@@ -2,7 +2,9 @@
 
 + **Autologin**:
 `
-vi /etc/lightdm/lightdm.conf  
+vi /etc/lightdm/lightdm.conf
+
 pam-autologin-service=lightdm-autologin  
+
 autologin-user=USER  
 `
